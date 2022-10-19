@@ -5,6 +5,9 @@
   "repository": "git@github.com:lucascortesc/motors-shop-06-backend.git",
   "author": "lucascortesc <ccordeiro.lucas@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev server.ts"
+  },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.14",
