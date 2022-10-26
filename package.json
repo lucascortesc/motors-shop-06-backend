@@ -6,7 +6,8 @@
   "author": "lucascortesc <ccordeiro.lucas@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev server.ts"
+    "dev": "ts-node-dev ./server.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
